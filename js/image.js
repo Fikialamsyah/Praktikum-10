@@ -8,7 +8,7 @@ let open_suse = document.getElementById("open_suse")
 let imgPick = document.getElementById("img_pick");
 let img = document.getElementById("img")
 
-imgPick.addEventListener('click', function(){
+imgPick.addEventListener('change', function(){
     if(imgPick.value == ubuntu.value){
         img.setAttribute("src", "ubuntu.png")
         alert("ini gambar ubuntu.png")

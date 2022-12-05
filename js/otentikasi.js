@@ -7,7 +7,6 @@ btn_login.addEventListener('click', function(){
     let username = document.getElementById("username").value;
     // inisiasi password
     let password = document.getElementById("password").value;
-    let btn_login = document.getElementById("login");
 
     // validasi
     if (username == "fiki" && password == "123"){
